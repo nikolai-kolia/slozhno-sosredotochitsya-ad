@@ -65,6 +65,7 @@
   background-color: transparent;
   cursor: pointer;
 }
+
 .header__theme-menu-button:hover {
   outline: 1px solid var(--button-hover-border);
 }
@@ -88,6 +89,7 @@
   line-height: 82.5%;
   font-weight: 700;
 }
+
 .header__title {
   text-shadow: 4px 4px 0 var(--shadow-color);
 }
@@ -223,7 +225,8 @@
   .third-section {
     grid-template-columns: 1fr 2fr;
   }
-.second-section .section__header {
+
+  .second-section .section__header {
     width: calc(100% / 3 - 20px);
   }
 
